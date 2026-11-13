@@ -1,0 +1,8 @@
+# AI Control: Improving Safety Despite Intentional Subversion
+
+The authors observed a problem, what happens when AI Agents generate responses that are malicious, how can we detect and correct this. The authors propose a means to prevent this and improve safety by using a lower, presumably trusted, agent that observes the decisions made by the higher agent. The authors use GPT 4.0 to simulate an Untrusted agent, and GPT 3.5 to simulate a trusted agent. They present the untrusted agent, U, with some coding tasks and the trusted agent, T, observes the output for any backdoors introduced into the coding solutions. The idea is to have an external non-similar agent, T, rate U and flag any abnormalities. The authors also introduce a Human in the loop, but because of human fatigue and the average time it will take for a human to actually review the coding results the human, H, was initiated as a GPT 4.0 model with some tokens or points given to it that gets consumed or used per rating.
+
+# Questions i have
+- Would it not have been much better to actually recruit some humans to do the rating? I feel like looking at the longer term, especially with agent collusion, using models to judge models might not be the safest bet.
+- What if trusting a lower model is not as safe as was presumed? What if a more recent model can strategically introduce a backdoor that an older model might not fully understand enough to flag?
+- I would love to see how more recent and advanced models from different manufacturers, e.g Claude and ChatGPT, would act in this instance when initiated as Trusted and then Untrusted.
