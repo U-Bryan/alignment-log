@@ -12,25 +12,25 @@ type blob = array<byte>
 
 type tree = map<string, tree* | blob*>
 
-type commit = string {
-	snapshot tree*
-	parents array<commits*>
-	author string
-	message string
+type commit = string { <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;snapshot tree* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parents array<commits*> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author string <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message string
 }
 
 type objects = blob | tree | commit
 
 objects = map<string, object> (where string is a SHA-1 hash)
  
-def strore(obj)
-	id = sha1(obj)
-	objects[id] = obj
+def strore(obj)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id = sha1(obj) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objects[id] = obj 
 
-def load(id)
-	return objects[id]
+def load(id) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return objects[id]
 
-references = map(strings, strings) (it maps human readable names to SHA-1 hashes)
+references = map(strings, strings) (it maps human readable names to SHA-1 hashes) <br>
 
-So what is a git repositort?
+So what is a git repositort? <br>
 It is a set of objects and references
