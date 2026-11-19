@@ -32,5 +32,5 @@ def load(id) <br>
 
 references = map(strings, strings) (it maps human readable names to SHA-1 hashes) <br>
 
-So what is a git repositort? <br>
+So what is a git repository? <br>
 It is a set of objects and references
