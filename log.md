@@ -10,3 +10,6 @@
 |2026-11-15| 1 | Anki setup, weekly review done and weekly log written | Akri ready to use for flashcards | none | week 01 python from zero |
 |2026-11-16| 6 | Python Lecture 0, Python Lecture 1 and Python Problem set 0 | 5/5 Score in the Python Problem set | i kept making the mistake of forgetting to call return after modifying a value within a function. This was supposed to return that value to be used where the function was called. | Python Problem set 1, Git: version control lecture |
 |2026-11-17| 3 | Python Problem set 1, Git version control project | 5/5 Score in Python problem set, Git version control fully practiced | practice does make perfect | Shell lecture |
+|2026-11-18| 2 | Missing semester lecture on the Shell | Logged new commands learnt | I was surprised by how much we can actually achieve using the shell | Algebra, Functions, Exponents and logarithms, Summation Notations |
+|2026-11-19| 2 | Algebra and functions | Lets just say i'm getting significantly better at math | none | Exponents and Logarithms |
+|2026-11-20| 4 | Exponents and Logarithms | Lets just say i'm getting significantly better at math | none | 3Blue1Brown linear algebra ch. 1-2 |
